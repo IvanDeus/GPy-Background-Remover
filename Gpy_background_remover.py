@@ -7,7 +7,7 @@ def remove_background():
     # Ask for input file
     input_path = filedialog.askopenfilename(
         title="Select Image File",
-        filetypes=[("Image files", "*.jpg;*.jpeg;*.png;*.bmp"), ("All files", "*.*")]
+        filetypes=[("Image files", "*.jpg;*.jpeg;*.png;*.webp;*.bmp"), ("All files", "*.*")]
     )
     
     if not input_path:
