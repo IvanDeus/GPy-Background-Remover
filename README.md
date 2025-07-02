@@ -1,7 +1,7 @@
 # GPy-Background-Remover
 Remove backgrounds from images (jpg, png) unsing rembg python library. GUI version
 
-# Requirements
+## Requirements
 
 1. pip install rembg
 2. pip install onnxruntime
